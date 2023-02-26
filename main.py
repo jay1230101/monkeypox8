@@ -19,10 +19,10 @@ from keras.utils import load_img,img_to_array
 
 
 
-main_dir = Path("Original_Images")
-monkey_dir ="Original_Images/Monkey Pox"
-others_dir = "Original_Images/others"
-monkey_glob = list(main_dir.glob("Monkey_Pox/*.jpg"))
+main_dir = Path("Original Images")
+monkey_dir ="Original Images/Monkey Pox"
+others_dir = "Original Images/others"
+monkey_glob = list(main_dir.glob("Monkey Pox/*.jpg"))
 others_glob=list(main_dir.glob("Others/*.jpg"))
 
 
